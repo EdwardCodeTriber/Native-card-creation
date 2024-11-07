@@ -56,4 +56,4 @@ Once you launch the app, you can:
 - Pick an Image: Use the "Pick Image" button to add a photo from your gallery.
 - Add Decorations: Choose fun decorations from the decoration selector to enhance your card.
 - View in Real-time: See all changes applied on the card canvas.
-- Each component interacts with the card canvas to build a custom birthday card in real-time.
+- Each component interacts with the card canvas to build a custom birthday card in real-time..
