@@ -6,8 +6,8 @@ interface DecorationSelectorProps {
 }
 
 const decorations = [
-  require('./path/to/decoration1.png'),
-  require('./path/to/decoration2.png'),
+  require('@/assets/images/partial-react-logo.png'),
+  require('@/assets/images/partial-react-logo.png'),
 ];
 
 const DecorationSelector: React.FC<DecorationSelectorProps> = ({ onSelect }) => (

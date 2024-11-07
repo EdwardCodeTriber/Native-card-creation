@@ -7,7 +7,7 @@ interface CardCanvasProps {
 
 const CardCanvas: React.FC<CardCanvasProps> = ({ children }) => {
   return (
-    <ImageBackground source={require('./path/to/birthday-background.png')} style={styles.canvas}>
+    <ImageBackground source={require('@/assets/images/partial-react-logo.png')} style={styles.canvas}>
       {children}
     </ImageBackground>
   );
