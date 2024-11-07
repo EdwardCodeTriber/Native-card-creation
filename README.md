@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+## Birthday Card App
+Birthday Card App is a mobile application built with React Native and TypeScript that allows users
+ to create custom birthday cards with text, images, and decorations. Users can personalize their cards with unique messages, photos, and fun decorations, making each card special.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Features
+- Custom Text Editing: Add, edit, and format text to appear on the card.
+- Image Picker: Select and add images from the device gallery.
+- Decoration Selector: Choose from a variety of decorations to enhance the card.
+- Card Canvas: View and arrange all content on the card in real-time.
+## Table of Contents
+- Installation
+- Usage
 
-## Get started
+# Installation
+To run this project on your local machine, follow these steps:
 
-1. Install dependencies
+# Prerequisites
+- Node.js and npm: Install here
+- React Native CLI: Setup guide
+- Android Studio / Xcode (for Android/iOS emulators)
+# Steps
+Clone the repository:
 
-   ```bash
-   npm install
-   ```
+bash
+Copy code
+git clone https://github.com/yourusername/native-card-creation.git
+Navigate to the project directory:
 
-2. Start the app
+# bash
+# Copy code
+- cd native-card-creation
+Install dependencies:
 
-   ```bash
-    npx expo start
-   ```
+# bash
+# Copy code
+- npm install
+Start the Metro bundler:
 
-In the output, you'll find options to open the app in a
+# bash
+# Copy code
+- npx react-native start
+Run the app on an emulator or physical device:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# bash
+# Copy code
+# For iOS
+- npx react-native run-ios
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# For Android
+- npx react-native run-android
 
-## Get a fresh project
+# Usage
+Once you launch the app, you can:
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Create a Card: Tap on "Add Text" to enter and style a custom message.
+- Pick an Image: Use the "Pick Image" button to add a photo from your gallery.
+- Add Decorations: Choose fun decorations from the decoration selector to enhance your card.
+- View in Real-time: See all changes applied on the card canvas.
+- Each component interacts with the card canvas to build a custom birthday card in real-time.
